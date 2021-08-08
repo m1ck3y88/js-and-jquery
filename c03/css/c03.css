@@ -13,6 +13,28 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;}
 
+a {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  padding: 0.8px;
+  text-decoration: none;
+}
+
+strong {
+  color: #0cedc8;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  padding: 1px;
+}
+
+tr td:first-of-type {
+  color: #e89b0c;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 5px;
+  display: inline;
+}
+
 h1 {
   background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
   width: 230px;
@@ -24,9 +46,15 @@ h1 {
   margin: 0;}
 
 h2 {
-  margin: 1.75em 0 0 0;
-  color: #adffda; 
+  padding: 0;
+  margin: 1.75em;
+  margin-bottom: 15px;
+  color: #e89b0c;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: inline; 
+  border-radius: 5px;
   font-weight: normal;}
+  
 
 h2 + p {
   margin: 0.25em 0 0 0;}
